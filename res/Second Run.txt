@@ -1,0 +1,105 @@
+"C:\Program Files\Java\jdk-14.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=51368:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Roux\CS5010\projects\RolePlaying\out\production\RolePlaying Driver
+- Begin Combat -
+- Character 1: Harry Potter, attack = 6, defense = 5
+- Character 2: Voldemort, attack = 6 defense = 4
+
+- Player 1 select a character...(enter 1 or 2)
+1
+- Player 2 chooses a character...(enter 1 or 2)
+2
+- harry potter VS voldemort -
+
+- Armor 1
+Immaculate Helmet, Attack = 0, Defense = 15, Combined Armor = true
+Golden Helm, Attack = 0, Defense = 6, Combined Armor = false
+Frumpy Cap, Attack = 0, Defense = 5, Combined Armor = false
+Kingly glove, Attack = 16, Defense = 0, Combined Armor = true
+Noble glove, Attack = 9, Defense = 0, Combined Armor = true
+Holey mitten, Attack = 6, Defense = 0, Combined Armor = false
+Beastly boot, Attack = 5, Defense = 2, Combined Armor = false
+Tough boot, Attack = 2, Defense = 5, Combined Armor = false
+Useless boot, Attack = 3, Defense = 2, Combined Armor = false
+Soggy foot, Attack = 1, Defense = 3, Combined Armor = false
+
+- Armor 2
+Supreme helm, Attack = 0, Defense = 10, Combined Armor = true
+Sturdy helmet, Attack = 0, Defense = 6, Combined Armor = false
+Cracked helmet, Attack = 0, Defense = 5, Combined Armor = false
+Crushing glove, Attack = 10, Defense = 0, Combined Armor = false
+Sturdy glove, Attack = 8, Defense = 0, Combined Armor = true
+Ratty glove, Attack = 6, Defense = 0, Combined Armor = false
+Destructive boot, Attack = 10, Defense = 5, Combined Armor = true
+Protective boot, Attack = 0, Defense = 10, Combined Armor = false
+Smelly boot, Attack = 2, Defense = 0, Combined Armor = false
+Chewed boot, Attack = 5, Defense = 3, Combined Armor = false
+
+- Player 2 chooses a Armor set...(enter 1 or 2)
+1
+harry potter is putting on 
+Attempting to switch Sturdy, Cracked helmet with Supreme helm->
+Keeping original armor.
+Attempting to switch Sturdy, Cracked helmet with Supreme helm->
+Keeping original armor.
+This piece of armor (Supreme helm) can't be added. The adventurer is fully equipped.
+Attempting to switch Chewed, Smelly boot with Destructive boot->
+Armor switched!
+Attempting to switch Chewed, Smelly boot with Destructive boot->
+Armor switched!
+Attempting to switch Protective boot with Destructive boot->
+Keeping original armor.
+Attempting to switch Protective boot with Destructive boot->
+Keeping original armor.
+
+voldemort is putting on 
+Attempting to switch Golden, Frumpy Cap with Immaculate Helmet->
+Armor switched!
+Attempting to switch Golden, Frumpy Cap with Immaculate Helmet->
+Armor switched!
+Attempting to switch Holey mitten with Noble glove->
+Keeping original armor.
+Attempting to switch Holey mitten with Noble glove->
+Keeping original armor.
+Attempting to switch Kingly glove with Noble glove->
+Keeping original armor.
+Attempting to switch Kingly glove with Noble glove->
+Keeping original armor.
+This piece of armor (Noble glove) can't be added. The adventurer is fully equipped.
+Attempting to switch Beastly, Useless boot with Soggy foot->
+Keeping original armor.
+Attempting to switch Beastly, Useless boot with Soggy foot->
+Keeping original armor.
+
+
+- Adventurer Stats -
+- harry potter: 
+	attack power = 6, defense = 5
+	final attack power = 40, final defense = 52
+- head armor
+	Sturdy, Cracked helmet, attack = 0, defense = 11
+- hand armor
+	Crushing, Ratty glove, attack = 16, defense = 0
+	Sturdy glove, attack = 8, defense = 0
+- foot armor
+	Destructive boot, attack = 10, defense = 5
+	Protective boot, attack = 0, defense = 10
+
+- voldemort: 
+	attack power = 6, defense = 4
+	final attack power = 39, final defense = 54
+- head armor
+	Immaculate Helmet, attack = 0, defense = 15
+- hand armor
+	Holey mitten, attack = 6, defense = 0
+	Kingly glove, attack = 16, defense = 0
+- foot armor
+	Beastly, Useless boot, attack = 8, defense = 4
+	Tough, Soggy foot, attack = 3, defense = 8
+
+
+- Combat Begins -
+
+harry potter gets -13 damage, voldemort gets -14 damage. voldemort wins.
+
+- Combat Ends -
+
+Process finished with exit code 0
